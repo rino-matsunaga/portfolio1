@@ -1,0 +1,164 @@
+@import url(sanitize.css);
+
+body{
+  color: #383e45;
+  font-size: 0.9rem;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+
+.site-title {
+  width: 120px;
+  line-height: 1px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.site-title img{
+  max-width: 100%;
+}
+
+header ul{
+  display: flex;
+  padding: 10px 0;
+  margin: 0;
+}
+
+header li{
+  margin-left: 30px;
+}
+
+header li a{
+  color: #24292e;
+  text-decoration: none;
+}
+
+header li a:hover {
+  opacity: .7;
+}
+
+#mainvisial{
+  margin-bottom: 80px;
+}
+
+#mainvisial img{
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
+
+#About{
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
+    text-align: center;
+}
+
+.section-title{
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+}
+
+#About .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#About img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+  object-fit: cover;
+}
+
+#About .text{
+  text-align: left;
+}
+
+#About .text .content-title{
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+#About .text p{
+  margin: 0;
+  padding: 0;
+}
+
+#Bicycle{
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  padding: 0 4%;
+  text-align: center;
+}
+
+#Bicycle ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+#Bicycle li{
+  width: 32%;
+  list-style: none;
+}
+
+#Bicycle li img{
+  max-width: 100%;
+  border-style: none;
+}
+
+#Bicycle li .content-title{
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+#Bicycle li p{
+    margin: 0;
+    padding: 0;
+}
+
+#footer p{
+  font-size: 0.5rem;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #mainvisial img{
+    height: calc(100vh - 60px);
+  }
+
+  #About .content {
+    flex-direction: column;
+  }
+
+  #About img{
+    margin-right: 0;
+  }
+
+  #Bicycle ul {
+    flex-direction: column;
+  }
+
+  #Bicycle li {
+    width: 100%;
+    margin-bottom: 30px;
+
+}
