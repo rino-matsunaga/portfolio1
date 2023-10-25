@@ -45,11 +45,11 @@ header li a:hover {
   opacity: .7;
 }
 
-#mainvisial{
+#mainvisual{
   margin-bottom: 80px;
 }
 
-#mainvisial img{
+#mainvisual img{
   width: 100%;
   max-width: 1920px;
   height: 600px;
@@ -142,7 +142,7 @@ header li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  #mainvisial img{
+  #mainvisual img{
     height: calc(100vh - 60px);
   }
 
